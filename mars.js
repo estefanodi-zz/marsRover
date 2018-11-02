@@ -93,7 +93,7 @@ start();
 
 selectStartingPoint = (sx,sy) => {
 	rl.question(
-		`Enter starting coordinates, followed by a cardinal point: N-S-O-E. ex: 1.1N, 2.5E.Type exit to close the app. \n`
+		`Enter starting coordinates, followed by a cardinal point: N-S-W-E. ex: 1.1N, 2.5E.Type exit to close the app. \n`
     , (cor) => {
      if(cor === 'exit'){ return rl.close();}
      if( cor.length <= 3 ){

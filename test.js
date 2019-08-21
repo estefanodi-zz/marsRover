@@ -1,5 +1,5 @@
-const assert    = require('assert');
-var controllers = require('./controllers.js');
+const assert      = require('assert');
+const controllers = require('./controllers.js');
 
 //===========================================================================
 //===================== CHECK PLATEAU SIZE VALUE ============================
